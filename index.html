@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/valida.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Redes Sociales</title>
+</head>
+<body>
+    <header>
+        <section class="cabecera">
+            <div class="title__cabecera">Api Graph para Redes Sociales</div>
+        </section>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                        <div class="col icons">
+                                    <a class="fab fa-facebook-f fb" ></a>
+                           
+                        </div>
+                        <div class="col icons" >
+                                    <a class="fab fa-twitter tw" ></a>
+                        </div>
+                        <div class="col icons">
+                                    <a class="fab fa-instagram inst" ></a>
+                        </div>
+
+            </div>
+            <form id="formulario">
+                <div class="row">
+                
+                    <div class="col">
+                        <div class="mb-3">
+                            <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                        </div>                    
+                    <div class="mb-3">
+                        <input type="file" class="form-control" aria-label="file example" id="file" required>
+                        <div class="invalid-feedback">Example invalid form file feedback</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col botones">
+                        <button  type="button" class="btn btn-primary" id="enviarFacebook">Enviar Facebook</button>
+                        <button  type="button" class="btn btn-primary" id="enviarInstagram" >Enviar Instagram</button>
+                        <button  type="button" class="btn btn-primary" id="enviarTwitter">Enviar Twitter</button>
+                        <input  type="reset" value="Cancelar" class="btn btn btn-danger" id="enviarCancelar"></input>
+                    </div>
+                </div>
+            </form>
+            <div id="pruebas"></div>
+        </div>
+        
+    </main>
+    <footer>
+      <!--  <div class="hero__wave" style="overflow: hidden">
+            <svg
+              viewBox="0 0 500 150"
+              preserveAspectRatio="none"
+              style="height: 100px; width: 100%"
+            >
+              <path
+                d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #f2f2f2"
+              ></path>
+            </svg>
+          </div>-->
+         
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/b3a49e9f5a.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
